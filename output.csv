@@ -1,0 +1,56 @@
+filepath,filename,line,var_name,dec_type,data_type,group_var,valueContinuation,value,datatype,varsize,isArray,multiplier,varlen,varlenInBits
+./Sample/Assembler,PADD.asm,INAREA   DS    0CL80                                                    ,INAREA,DS,0CL80                                                    ,1,0,,C,1,0,0,1,0
+./Sample/Assembler,PADD.asm,         DS    CL12                                                     ,,DS,CL12                                                     ,0,0,,C,12,0,1,12,0
+./Sample/Assembler,PADD.asm,INT1     DS    CL3                                                      ,INT1,DS,CL3                                                      ,0,0,,C,3,0,1,3,0
+./Sample/Assembler,PADD.asm,         DS    CL12                                                     ,,DS,CL12                                                     ,0,0,,C,12,0,1,12,0
+./Sample/Assembler,PADD.asm,INT2     DS    CL3                                                      ,INT2,DS,CL3                                                      ,0,0,,C,3,0,1,3,0
+./Sample/Assembler,PADD.asm,         DS    CL50                                                     ,,DS,CL50                                                     ,0,0,,C,50,0,1,50,0
+./Sample/Assembler,PADD.asm,OUTAREA  DS    0CL132                                                   ,OUTAREA,DS,0CL132                                                   ,1,0,,C,1,0,0,1,0
+./Sample/Assembler,PADD.asm,         DS    CL7' '                                                   ,,DS,CL7' '                                                   ,0,0, ,C,7,0,1,7,0
+./Sample/Assembler,PADD.asm,         DC    C'YOUR SUM IS '                                          ,,DC,C'YOUR SUM IS '                                          ,0,0,,C,1,0,1,1,0
+./Sample/Assembler,PADD.asm,SUM      DS    CL10                                                     ,SUM,DS,CL10                                                     ,0,0,,C,10,0,1,10,0
+./Sample/Assembler,PADD.asm,         DC    CL104' '                                                 ,,DC,CL104' '                                                 ,0,0, ,C,104,0,1,104,0
+./Sample/Assembler,PADD.asm,BCD      DS    D                                                        ,BCD,DS,D                                                        ,0,0,,D,1,0,1,8,0
+./Sample/Assembler,PADD.asm,XX1      DS    F                                                        ,XX1,DS,F                                                        ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,PADD.asm,YY1      DS    F                                                        ,YY1,DS,F                                                        ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,PADD.asm,ZZ1      DS    F                                                        ,ZZ1,DS,F                                                        ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,PADD.asm,SAVE     DS    18F                                                      ,SAVE,DS,18F                                                      ,0,0,,F,1,1,18,72,0
+./Sample/Assembler,ASAM1.asm,         DS    0H ,,DS,0H ,1,0,,H,1,0,0,2,0
+./Sample/Assembler,ASAM1.asm,         DC    CL32'******** PROGRAM ASAM1 *********' ,,DC,CL32'******** PROGRAM ASAM1 *********' ,0,0,******** PROGRAM ASAM1 *********,C,32,0,1,32,0
+./Sample/Assembler,ASAM1.asm,EYECATCH DC    CL32'*** PROGRAM ASAM1 DATA AREAS ***' ,EYECATCH,DC,CL32'*** PROGRAM ASAM1 DATA AREAS ***' ,0,0,*** PROGRAM ASAM1 DATA AREAS ***,C,32,0,1,32,0
+./Sample/Assembler,ASAM1.asm,FILECC   DC    H'0'                  MAX RETURN CODE FROM FILE OPENS ,FILECC,DC,H'0'                  MAX RETURN CODE FROM FILE OPENS ,0,0,,H,1,0,1,2,0
+./Sample/Assembler,ASAM1.asm,RECCOUNT DC    PL4'0'                INPUT RECORD COUNT ,RECCOUNT,DC,PL4'0'                INPUT RECORD COUNT ,0,0,0,P,4,0,1,4,0
+./Sample/Assembler,ASAM1.asm,PROCCNT  DC    PL4'0'                PROCEDURE COUNT ,PROCCNT,DC,PL4'0'                PROCEDURE COUNT ,0,0,0,P,4,0,1,4,0
+./Sample/Assembler,ASAM1.asm,STATUS   DC    CL30' '               CURRENT PROGRAM STATUS ,STATUS,DC,CL30' '               CURRENT PROGRAM STATUS ,0,0, ,C,30,0,1,30,0
+./Sample/Assembler,ASAM1.asm,EOFFLAG  DC    XL1'00'               END OF INPUT FILE FLAG ,EOFFLAG,DC,XL1'00'               END OF INPUT FILE FLAG ,0,0,00,X,1,0,1,1,0
+./Sample/Assembler,ASAM1.asm,INREC    DC    CL80' '               INPUT RECORD ,INREC,DC,CL80' '               INPUT RECORD ,0,0, ,C,80,0,1,80,0
+./Sample/Assembler,ASAM1.asm,OUTREC   DC    CL80' '               OUTPUT RECORD ,OUTREC,DC,CL80' '               OUTPUT RECORD ,0,0, ,C,80,0,1,80,0
+./Sample/Assembler,ASAM1.asm,RETCODE  DC    F'0'                  DEFAULT RETURN CODE IS ZERO ,RETCODE,DC,F'0'                  DEFAULT RETURN CODE IS ZERO ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,ASAM1.asm,MAINLSAV DC    F'0' ,MAINLSAV,DC,F'0' ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,ASAM1.asm,OPENFSAV DC    F'0' ,OPENFSAV,DC,F'0' ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,ASAM1.asm,CLOSFSAV DC    F'0' ,CLOSFSAV,DC,F'0' ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,ASAM1.asm,READISAV DC    F'0' ,READISAV,DC,F'0' ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,ASAM1.asm,WRITOSAV DC    F'0' ,WRITOSAV,DC,F'0' ,0,0,,F,1,0,1,4,0
+./Sample/Assembler,ASAM1.asm,OUTLINE1 DS    0CL80 ,OUTLINE1,DS,0CL80 ,1,0,,C,1,0,0,1,0
+./Sample/Assembler,ASAM1.asm,         DC    CL14'RECORD NUMBER ' ,,DC,CL14'RECORD NUMBER ' ,0,0,RECORD NUMBER ,C,14,0,1,14,0
+./Sample/Assembler,ASAM1.asm,OUTRECCT DC    CL10'          ' ,OUTRECCT,DC,CL10'          ' ,0,0,          ,C,10,0,1,10,0
+./Sample/Assembler,ASAM1.asm,         DC    56C' ' ,,DC,56C' ' ,0,0,,C,1,1,56,56,0
+./Sample/Assembler,ASAM1.asm,OUTLINE2 DS    0CL80 ,OUTLINE2,DS,0CL80 ,1,0,,C,1,0,0,1,0
+./Sample/Assembler,ASAM1.asm,         DC    CL40'....0....1....1....2....2....3....3....4' ,,DC,CL40'....0....1....1....2....2....3....3....4' ,0,0,....0....1....1....2....2....3....3....4,C,40,0,1,40,0
+./Sample/Assembler,ASAM1.asm,         DC    CL40'....4....5....5....6....6....7....7....8' ,,DC,CL40'....4....5....5....6....6....7....7....8' ,0,0,....4....5....5....6....6....7....7....8,C,40,0,1,40,0
+./Sample/Assembler,ASAM1.asm,OUTLINE3 DS    0CL80 ,OUTLINE3,DS,0CL80 ,1,0,,C,1,0,0,1,0
+./Sample/Assembler,ASAM1.asm,         DC    CL40'....5....0....5....0....5....0....5....0' ,,DC,CL40'....5....0....5....0....5....0....5....0' ,0,0,....5....0....5....0....5....0....5....0,C,40,0,1,40,0
+./Sample/Assembler,ASAM1.asm,         DC    CL40'....5....0....5....0....5....0....5....0' ,,DC,CL40'....5....0....5....0....5....0....5....0' ,0,0,....5....0....5....0....5....0....5....0,C,40,0,1,40,0
+./Sample/Assembler,ASAM1.asm,BLANKS   DC    80C' ' ,BLANKS,DC,80C' ' ,0,0,,C,1,1,80,80,0
+./Sample/Assembler,ASAM1.asm,SAVEAREA DC    18F'0' ,SAVEAREA,DC,18F'0' ,0,0,,F,1,1,18,72,0
+./Sample/Assembler,sample.asm,Alignfull    DS       0F            align full word boundary ,Alignfull,DS,0F            align full word boundary ,1,0,,F,1,0,0,4,0
+./Sample/Assembler,sample.asm,Pdetail      DS       0CL110        'person detail' ,Pdetail,DS,0CL110        'person detail' ,1,0,,C,1,0,0,1,0
+./Sample/Assembler,sample.asm,Pfname       DS       CL20          first name ,Pfname,DS,CL20          first name ,0,0,,C,20,0,1,20,0
+./Sample/Assembler,sample.asm,Plname       DS       CL20          last name ,Plname,DS,CL20          last name ,0,0,,C,20,0,1,20,0
+./Sample/Assembler,sample.asm,Paddress     DS       CL30          address ,Paddress,DS,CL30          address ,0,0,,C,30,0,1,30,0
+./Sample/Assembler,sample.asm,Pnumber      DS       CL10          phone number ,Pnumber,DS,CL10          phone number ,0,0,,C,10,0,1,10,0
+./Sample/Assembler,sample.asm,Pemail       DS       CL30          email address ,Pemail,DS,CL30          email address ,0,0,,C,30,0,1,30,0
+./Sample/Assembler,sample.asm,Var1         DS       HL20          var1 length is 20 ,Var1,DS,HL20          var1 length is 20 ,0,0,,H,20,0,1,40,0
+./Sample/Assembler,sample.asm,Var2         DC       CL10'ABCDE FGHI'    var2 length is 5 ,Var2,DC,CL10'ABCDE FGHI'    var2 length is 5 ,0,0,ABCDE FGHI,C,10,0,1,10,0
+./Sample/Assembler,sample.asm,Var3         DC       CL10'ABCDE FGHI                                  -,Var3,DC,CL10'ABCDE FGHI                                  -,0,1,ABCDE FGHI                                  0000000000000000000000000000000000000000,C,10,0,1,10,0
+./Sample/Assembler,sample.asm,PRVINDEX DS   264F                                                 @L1A,PRVINDEX,DS,264F                                                 @L1A,0,0,,F,1,1,264,1056,0

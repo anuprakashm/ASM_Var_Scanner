@@ -1,0 +1,20 @@
+[
+    {"type" : "C", "length" : 1 , "bintype" : 0, "desc" : "Character format"},
+    {"type" : "G", "length" : 2 , "bintype" : 0, "desc" : "Graphic 16 bit format"},
+    {"type" : "X", "length" : 1 , "bintype" : 0, "desc" : "Hexa decimal format"},
+    {"type" : "P", "length" : 1 , "bintype" : 0, "desc" : "Packed decimal format"},
+    {"type" : "Z", "length" : 1 , "bintype" : 0, "desc" : "Zoned decimal format"},
+    {"type" : "H", "length" : 2,  "bintype" : 0, "desc" : "Half word"},
+    {"type" : "S", "length" : 2,  "bintype" : 0, "desc" : "Base register displacement value"},
+    {"type" : "F", "length" : 4,  "bintype" : 0, "desc" : "Full word"},
+    {"type" : "E", "length" : 4,  "bintype" : 0, "desc" : "Short floating-point format"},
+    {"type" : "D", "length" : 8,  "bintype" : 0, "desc" : "Double word"},
+    {"type" : "L", "length" : 16, "bintype" : 0, "desc" : "Extended floating-point format"},
+    {"type" : "A", "length" : 4,  "bintype" : 0, "desc" : "Address constant"},
+    {"type" : "B", "length" : 1 , "bintype" : 1, "desc" : "Binary format"},
+    {"type" : "V", "length" : 4,  "bintype" : 0, "desc" : "Address- external"},
+    {"type" : "J", "length" : 4,  "bintype" : 0, "desc" : "Space reserved for length of class or DXD"},
+    {"type" : "R", "length" : 4,  "bintype" : 0, "desc" : "Space reserved for PSECT addresses"},
+    {"type" : "Q", "length" : 4,  "bintype" : 0, "desc" : "Space reserved for external dummy section offset"},
+    {"type" : "Y", "length" : 2,  "bintype" : 0, "desc" : "Half word"}
+]
